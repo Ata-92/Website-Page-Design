@@ -12,9 +12,9 @@
     <header class="header">
       <h2 class="header__heading"><span>Clarusway</span> Web Design</h2>
       <nav class="header__nav">
-        <a href="index.html" class="header__nav--link home">HOME</a>
-        <a href="about.html" target="_blank" class="header__nav--link about">ABOUT</a>
-        <a href="services.html" target="_blank" class="header__nav--link services">SERVICES</a>
+        <a href="index.html" class="header__nav--link">HOME</a>
+        <a href="about.html" target="_blank" class="header__nav--link">ABOUT</a>
+        <a href="services.html" target="_blank" class="header__nav--link home">SERVICES</a>
       </nav>
     </header>
     <main class="main">
@@ -28,17 +28,17 @@
       <div class="boxes">
         <section class="services">
           <h4 class="services__heading">Services</h4>
-          <div class="services__box service1">
+          <div class="services__box">
             <h4 class="services__box--heading">Website Design</h4>
             <p class="services__box--paragraph-up">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus mi augue, viverra sit amet ultricies at, vulputate id lorem. Nulla facilisi.</p>
             <p class="services__box--paragraph-down">Pricing: $1,000 - $3,000</p>
           </div>
-          <div class="services__box service2">
+          <div class="services__box">
             <h4 class="services__box--heading">Website Maintenance</h4>
             <p class="services__box--paragraph-up">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus mi augue, viverra sit amet ultricies at, vulputate id lorem. Nulla facilisi.</p>
             <p class="services__box--paragraph-down">Pricing: $250 per month</p>
           </div>
-          <div class="services__box service3">
+          <div class="services__box">
             <h4 class="services__box--heading">Website Hosting</h4>
             <p class="services__box--paragraph-up">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus mi augue, viverra sit amet ultricies at, vulputate id lorem. Nulla facilisi.</p>
             <p class="services__box--paragraph-down">Pricing: $25 per month</p>
@@ -48,18 +48,21 @@
           <form class="form" action="#" method="GET">
             <h4 class="form__heading">Get A Quote</h4>
             <div class="form__box">
-              <label for="" class="form__box--label"></label>
-              <input type="text" class="form__box--input">
+              <label for="name" class="form__box--label">Name</label>
+              <br>
+              <input type="text" class="form__box--input" id="name" name="Name" placeholder="Name">
             </div>
             <div class="form__box">
-              <label for="" class="form__box--label"></label>
-              <input type="text" class="form__box--input">
+              <label for="mail" class="form__box--label">Email</label>
+              <br>
+              <input type="email" class="form__box--input" id="mail" name="Email" placeholder="Email Address">
             </div>
             <div class="form__box">
-              <label for="" class="form__box--label"></label>
-              <input type="text" class="form__box--input">
+              <label for="message" class="form__box--label">Message</label>
+              <br>
+              <textarea name="Message" class="form__box--input" id="message" cols="30" rows="5" placeholder="Message"></textarea>
             </div>
-            <input type="submit" class="form__box--input" value="Send">
+            <input type="submit" class="form__submit" value="Send">
           </form>
         </section>
       </div>

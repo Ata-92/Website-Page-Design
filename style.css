@@ -154,3 +154,45 @@
   margin-top: 1rem;
 }
 
+.boxes {
+  background-color: #F4F4F4;
+  display: flex;
+  padding: 2rem;
+  justify-content: space-between;
+  line-height: 1.8rem;
+}
+
+.services__heading {
+  margin-bottom: 2rem;
+}
+
+.services__box {
+  background-color: #E6E6E6;
+  padding: 2rem 1rem;
+  margin-bottom: .5rem;
+  border: .05rem solid gainsboro;
+}
+
+.services__box--heading, .services__box--paragraph-up, .services__box--paragraph-down {
+  margin-bottom: 1rem;
+}
+
+.form {
+  background-color: #35424A;
+  color: white;
+  padding: 2rem;
+}
+
+.form__box--input {
+  width: 20rem;
+  padding: .5rem;
+}
+
+.form__submit {
+  background-color: #F16529;
+  padding: 1rem;
+  color: white;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
