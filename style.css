@@ -110,3 +110,15 @@
   line-height: 1.5rem;
   margin: 0 1rem;
 }
+
+.footer {
+  background-color: #35424A;
+  text-align: center;
+  padding: 2rem 0;
+  border-top: .2rem solid #9E4E8D;
+}
+
+.footer__paragraph {
+  color: white;
+  margin-bottom: 2rem;
+}
