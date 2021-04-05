@@ -9,11 +9,12 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
+  border-bottom: .2rem solid #9E4E8D;
 }
 
 .header__heading {
   color: white;
-  padding: 1.5rem 1rem;
+  padding: 1.5rem;
 }
 
 .header__heading span {
@@ -23,7 +24,7 @@
 .header__nav {
   display: flex;
   width: 20rem;
-  justify-content: space-around;
+  justify-content: space-evenly;
 }
 
 .header__nav a {
@@ -49,7 +50,6 @@
   background-size: cover;
   color: white;
   text-align: center;
-  border-top: .2rem solid #9E4E8D;
 }
 
 .banner__heading {
@@ -70,14 +70,14 @@
 }
 
 .subscribe__heading {
-  padding: 1.5rem 1rem;
+  padding: 1.5rem;
 }
 
 .subscribe__box--input {
   height: 1.5rem;
   width: 15rem;
   padding-left: .2rem;
-  margin-right: .5rem;
+  margin-right: 1rem;
 }
 
 .subscribe__box--button {
@@ -87,7 +87,7 @@
   outline: none;
   cursor: pointer;
   padding: .4rem .8rem;
-  margin-right: 1rem;
+  margin-right: 2rem;
 }
 
 .skills {
@@ -122,3 +122,35 @@
   color: white;
   margin-bottom: 2rem;
 }
+
+.paragraphs {
+  background-color: #F4F4F4;
+  display: flex;
+  height: 25rem;
+  padding: 2rem;
+  justify-content: space-around;
+  line-height: 1.8rem;
+}
+
+.paragraphs__left {
+  margin-right: 2rem;
+}
+
+.paragraphs__right {
+  background-color: #35424A;
+  color: white;
+  padding: 2rem;
+  height: 8rem;
+}
+
+.first {
+  margin-top: 1rem;
+}
+
+.second {
+  background-color: #35424A;
+  color: white;
+  padding: .5rem 1rem;
+  margin-top: 1rem;
+}
+
