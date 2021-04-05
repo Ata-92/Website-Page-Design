@@ -123,24 +123,20 @@
   margin-bottom: 2rem;
 }
 
+
+/* ABOUT PAGE */
+
+
 .paragraphs {
   background-color: #F4F4F4;
   display: flex;
-  height: 25rem;
-  padding: 2rem;
+  padding: 2rem 2rem 10rem;
   justify-content: space-around;
   line-height: 1.8rem;
 }
 
 .paragraphs__left {
   margin-right: 2rem;
-}
-
-.paragraphs__right {
-  background-color: #35424A;
-  color: white;
-  padding: 2rem;
-  height: 8rem;
 }
 
 .first {
@@ -154,12 +150,26 @@
   margin-top: 1rem;
 }
 
+.paragraphs__right {
+  background-color: #35424A;
+  color: white;
+  padding: 2rem;
+}
+
+
+/* SERVICES PAGE */
+
+
 .boxes {
   background-color: #F4F4F4;
   display: flex;
   padding: 2rem;
   justify-content: space-between;
   line-height: 1.8rem;
+}
+
+.services {
+  margin-right: 1rem;
 }
 
 .services__heading {
@@ -181,16 +191,19 @@
   background-color: #35424A;
   color: white;
   padding: 2rem;
+  display: flex;
+  flex-direction: column;
 }
 
 .form__box--input {
-  width: 20rem;
+  width: 20vw;
   padding: .5rem;
 }
 
 .form__submit {
   background-color: #F16529;
-  padding: 1rem;
+  width: 8vw;
+  padding: 1vw;
   color: white;
   border: none;
   outline: none;
